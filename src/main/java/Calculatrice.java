@@ -11,6 +11,8 @@ public class Calculatrice {
 			c = sc.nextLine().charAt(0);
 			if (c=='c') {
 				scientifique = false;
+				Classique calc = new Classique();
+				calc.run();
 				break;
 			}
 			else if (c=='s') {
@@ -18,5 +20,6 @@ public class Calculatrice {
 				break;
 			}
 		}
+		sc.close();
 	}
 }
