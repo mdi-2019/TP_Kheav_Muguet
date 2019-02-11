@@ -15,8 +15,10 @@ public class Calculatrice {
 			}
 			else if (c=='s') {
 				scientifique = true;
+				Scientifique.run();
 				break;
 			}
 		}
+		
 	}
 }
