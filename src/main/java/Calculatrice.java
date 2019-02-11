@@ -13,11 +13,14 @@ public class Calculatrice {
 				break;
 			}
 			else if (c=='s') {
+
 				Scientifique.run();
 				break;
 			}
 		}
+
 		sc.close();
+
 
 	}
 }
