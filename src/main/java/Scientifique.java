@@ -43,13 +43,13 @@ public class Scientifique {
 		sc.close();
 	}
 	
-	private static double cos(double x) {
+	static double cos(double x) {
 		return Math.cos(x);
 	}
-	private static double sin(double x) {
+	static double sin(double x) {
 		return Math.sin(x);
 	}
-	private static double pow(double x, double y) {
+	static double pow(double x, double y) {
 		return Math.pow(x, y);
 	}
 	
