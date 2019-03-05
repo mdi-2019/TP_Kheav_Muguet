@@ -40,25 +40,25 @@ public class Classique {
 		sc.close();
 	}
 
-	private static double add(double a, double b) {
+	static double add(double a, double b) {
 		double result;
 		result = a + b;
 		return result;
 	}
 	
-	private static double sub(double a, double b) {
+	static double sub(double a, double b) {
 		double result;
 		result = a - b;
 		return result;
 	}
 	
-	private static double mult(double a, double b) {
+	static double mult(double a, double b) {
 		double result;
 		result = a * b;
 		return result;
 	}
 	
-	private static double div(double a, double b) {
+	static double div(double a, double b) {
 		double result;
 		result = a / b;
 		return result;
